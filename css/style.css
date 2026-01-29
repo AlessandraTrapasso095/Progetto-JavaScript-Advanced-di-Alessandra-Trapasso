@@ -200,3 +200,60 @@ button:disabled {
 }
 
 
+@media (max-width: 768px) {
+  .top-logo img {
+    height: 160px;
+  }
+
+  main {
+    margin: 24px 12px 40px 12px;
+    padding: 18px;
+    border-radius: 14px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  input[type="text"],
+  button {
+    width: 100%;
+  }
+
+  #results > div {
+    padding: 12px;
+  }
+
+  .inline-details {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 420px) {
+  .top-logo img {
+    height: 130px;
+  }
+
+  main .title {
+    font-size: 22px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  button {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333;
+    background-color: #ffffff;
+    min-height: 44px;
+    padding: 12px 16px;
+  }
+}
+
+
+
